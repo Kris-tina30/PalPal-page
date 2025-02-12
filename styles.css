@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+main {
+  display: flex;
+  gap: 20px;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-links ul li {
+  display: inline-block;
+}
+a:hover,
+a:focus {
+  color: rgb(20, 20, 182);
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu button {
+  background-color: #000080;
+  color: #fff;
+  padding: 5px 16px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+  width: 20%;
+  font-size: 16px;
+}
+.line {
+  width: 100%;
+  height: 25px;
+  background-color: #483d8b;
+}
+
+.header-menu {
+  display: flex;
+  margin-top: 15px;
+  gap: 2px;
+}
+header {
+  margin-bottom: 15px;
+}
+/* Welcom, News section */
+.side-bare {
+  width: 22%;
+}
+.main-info {
+  width: 80%;
+}
+.section-title {
+  background-color: rgb(198, 192, 192);
+  padding: 5px 8px;
+}
+.welcom,
+.news {
+  border: 1px solid black;
+}
+.section-info {
+  padding-left: 8px;
+  padding-top: 8px;
+  background-color: rgb(249, 246, 246);
+}
+.welcom button {
+  padding: 5px 8px;
+  border: 2px solid rgb(65, 59, 59);
+  background-color: rgb(198, 192, 192);
+  border-radius: 5px;
+  margin: 5px 0 16px 16px;
+}
+.news .section-title {
+  display: flex;
+  justify-content: space-between;
+}
+/* main-info section */
+.sign-up-link,
+.send-money-section h1,
+h4 {
+  text-align: center;
+}
+.send-money {
+  display: flex;
+  gap: 12px;
+}
+.send-money-list {
+  width: 70%;
+}
+.sign-up-picture {
+  width: 30%;
+}
+.sign-up-picture h3 {
+  background-color: #000080;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 50px 30px;
+}
+.sign-up-link {
+  padding: 5px 10px;
+  background-color: rgb(245, 245, 182);
+  border: 2px solid rgb(202, 202, 14);
+}
+.potlight-card {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.potlight-card img {
+  width: 60px;
+}
