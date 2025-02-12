@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
+    <header>
+      <div class="container">
         <div class="header-links">
           <div><img src="./images/logo.png" alt="logo" /></div>
           <ul>
@@ -18,124 +18,125 @@
           </ul>
         </div>
         <div class="header-menu">
-          <button>Welcome</button>
+          <button id="welcom-btn">Welcome</button>
           <button>Send Money</button>
           <button>Request Money</button>
           <button>Shop</button>
           <button>Sell</button>
         </div>
-        <div class="line"></div>
-      </header>
-      <main>
-        <div class="side-bare">
-          <section class="welcom">
-            <div class="section-title"><h2>Welcom</h2></div>
-            <div class="section-info">
-              <h4>&#9654; PayPal members</h4>
-              <button>LOG IN</button>
-              <h4>&#9654; New user?</h4>
-              <button>SIGN UP</button>
+      </div>
+      <div class="line"></div>
+    </header>
+    <main class="container">
+      <div class="side-bare">
+        <section class="welcom">
+          <div class="section-title"><h2>Welcom</h2></div>
+          <div class="section-info">
+            <h4>&#9654; PayPal members</h4>
+            <button>LOG IN</button>
+            <h4>&#9654; New user?</h4>
+            <button>SIGN UP</button>
+          </div>
+        </section>
+        <section class="news">
+          <div class="section-title">
+            <h2>News</h2>
+            <a href="#">more</a>
+          </div>
+          <div class="section-info">
+            <p>"<a href="#">Secure, instantaneus payments</a>"</p>
+            <p>- USA Today</p>
+            <p>"<a href="#">The best solution</a>"</p>
+            <p>- Esquire</p>
+            <p>"<a href="#">The money's good</a>"</p>
+            <p>- Wall Street Journal</p>
+          </div>
+        </section>
+        <div>
+          <img src="./images/cards.png" alt="cards" />
+        </div>
+      </div>
+      <div class="main-info">
+        <div>
+          <section class="send-money-section">
+            <h1>The way to send and receive money online</h1>
+            <div class="send-money">
+              <div class="send-money-list">
+                <ul>
+                  <li>
+                    <a href="#">Send Money</a>
+                    <p>Pay anyone with an email address</p>
+                  </li>
+                  <li>
+                    <a href="#">Request Money</a>
+                    <p>Send a personal or group bill</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="sign-up-picture">
+                <h3>Get $5 for signing up!</h3>
+              </div>
+            </div>
+            <h4>Over 15 million members <a href="#">worldwide</a>!</h4>
+            <div class="sign-up-link">
+              <a href="#">Sign up for FREE PayPal Account!</a>
             </div>
           </section>
-          <section class="news">
-            <div class="section-title">
-              <h2>News</h2>
-              <a href="#">more</a>
-            </div>
-            <div class="section-info">
-              <p>"<a href="#">Secure, instantaneus payments</a>" - USA Today</p>
-              <p>"<a href="#">The best solution</a>" - Esquire</p>
-              <p>"<a href="#">The money's good</a>" - Wall Street Journal</p>
+          <section class="spotlight-section">
+            <h2 class="section-title">Spotlight</h2>
+            <div class="potlight-info">
+              <div class="potlight-card">
+                <div>
+                  <img src="./images/icon3.png" alt="money" />
+                </div>
+                <div>
+                  <a class="potlight-title" href="#">Businesses</a>
+                  <p>PayPal is the easiest and cheapest way for small</p>
+                  <p>businesses and websites to accept payments online.</p>
+                  <p><a href="#">Sign up</a> now!</p>
+                </div>
+              </div>
+              <div class="potlight-card">
+                <div>
+                  <img src="./images/icon1.png" alt="sold" />
+                </div>
+                <div>
+                  <a class="potlight-title" href="#">Auctions</a>
+                  <p>#1 payment servise on eBay.</p>
+                  <p>Thusted on over 3 million auctions.</p>
+                </div>
+              </div>
             </div>
           </section>
-          <div>
-            <img src="./images/cards.png" alt="cards" />
-          </div>
         </div>
-        <div class="main-info">
-          <div>
-            <section class="send-money-section">
-              <h1>The way to send and receive money online</h1>
-              <div class="send-money">
-                <div class="send-money-list">
-                  <ul>
-                    <li>
-                      <a href="#">Send Money</a>
-                      <p>Pay anyone with an email address</p>
-                    </li>
-                    <li>
-                      <a href="#">Request Money</a>
-                      <p>Send a personal or group bill</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="sign-up-picture">
-                  <h3>Get $5 for signing up!</h3>
-                </div>
-              </div>
-              <h4>Over 15 million members <a href="#">worldwide</a>!</h4>
-              <div class="sign-up-link">
-                <a href="#">Sign up for FREE PayPal Account!</a>
-              </div>
-            </section>
-            <section class="spotlight-section">
-              <h2 class="section-title">Spotlight</h2>
-              <div class="potlight-info">
-                <div class="potlight-card">
-                  <div>
-                    <img src="./images/icon3.png" alt="money" />
-                  </div>
-                  <div>
-                    <a class="potlight-title" href="#">Businesses</a>
-                    <p>
-                      PayPal is the easiest and cheapest way for small
-                      businesses and websites to accept payments online.
-                    </p>
-                    <p><a href="#">Sign up</a> now!</p>
-                  </div>
-                </div>
-                <div class="potlight-card">
-                  <div>
-                    <img src="./images/icon1.png" alt="sold" />
-                  </div>
-                  <div>
-                    <a class="potlight-title" href="#">Auctions</a>
-                    <p>#1 payment servise on eBay.</p>
-                    <p>Thusted on over 3 million auctions.</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </main>
-      <footer>
-        <ul>
-          <li><a href="#">About Us </a> <span>|</span></li>
-          <li><a href="#">Accounts </a> <span>|</span></li>
-          <li><a href="#">Fees</a> <span>|</span></li>
-          <li><a href="#">Privacy </a> <span>|</span></li>
-          <li><a href="#">Security Center </a> <span>|</span></li>
-          <li><a href="#">User Agreement</a> <span>|</span></li>
-          <li><a href="#">Developers </a> <span>|</span></li>
-          <li><a href="#">Referrals </a> <span>|</span></li>
-          <li><a href="#">Help</a></li>
-        </ul>
+      </div>
+    </main>
+    <footer class="container">
+      <ul>
+        <li><a href="#">About Us </a> <span> | </span></li>
+        <li><a href="#">Accounts </a> <span> | </span></li>
+        <li><a href="#">Fees</a> <span> | </span></li>
+        <li><a href="#">Privacy </a> <span> | </span></li>
+        <li><a href="#">Security Center </a> <span> | </span></li>
+        <li><a href="#">User Agreement</a> <span> | </span></li>
+        <li><a href="#">Developers </a> <span> | </span></li>
+        <li><a href="#">Referrals </a> <span> | </span></li>
+        <li><a href="#">Help</a></li>
+      </ul>
 
-        <p>Copyright &copy; 2002 PayPal. All rights reserved.</p>
-        <a href="#">Information about FDIC pass-through insurance</a>
-        <div class="footer-pictures">
-          <div>
-            <img src="./images/ad.png" alt="insurance" />
-          </div>
-          <div>
-            <img src="./images/ad.png" alt="insurance" />
-          </div>
-          <div>
-            <img src="./images/ad.png" alt="insurance" />
-          </div>
+      <p>Copyright &copy; 2002 PayPal. All rights reserved.</p>
+      <a href="#">Information about FDIC pass-through insurance</a>
+      <div class="footer-pictures">
+        <div>
+          <img src="./images/ad.png" alt="insurance" />
         </div>
-      </footer>
-    </div>
+        <div>
+          <img src="./images/ad.png" alt="insurance" />
+        </div>
+        <div>
+          <img src="./images/ad.png" alt="insurance" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -21,7 +21,14 @@ main {
   gap: 20px;
   margin-bottom: 45px;
 }
-
+span {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+body {
+  margin-left: 205px;
+  margin-right: 205px;
+}
 .container {
   width: 1000px;
   padding-left: 35px;
@@ -32,20 +39,28 @@ main {
 
 .header-links ul li {
   display: inline-block;
+  font-size: 18px;
 }
-a:hover,
-a:focus {
-  color: rgb(20, 20, 182);
+.header-links img {
+  width: 180px;
 }
 .header-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.header-links li:first-child {
+  font-weight: bold;
+}
+#welcom-btn {
+  height: 40px;
+  background-color: #483d8b;
+}
 .header-menu button {
   background-color: #000080;
   color: #fff;
-  padding: 5px 16px;
+  width: 20%;
+  height: 35px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border: none;
@@ -62,13 +77,15 @@ a:focus {
   display: flex;
   margin-top: 15px;
   gap: 2px;
+  align-items: flex-end;
 }
+
 header {
   margin-bottom: 15px;
 }
 /* Welcom, News section */
 .side-bare {
-  width: 26%;
+  width: 24%;
 }
 
 .main-info {
@@ -78,15 +95,16 @@ header {
   background-color: rgb(198, 192, 192);
   padding: 5px 8px;
 }
-.welcom,
-.news {
-  border: 1px solid black;
-}
+
 .section-info {
-  padding-left: 8px;
-  padding-top: 8px;
+  padding: 8px;
   background-color: rgb(223, 219, 219);
 }
+.section-info :nth-child(2n) {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .welcom button {
   padding: 5px 8px;
   border: 2px solid rgb(65, 59, 59);
@@ -97,11 +115,14 @@ header {
 .news .section-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.news {
+  margin-top: 25px;
 }
 /* main-info section */
 .sign-up-link,
-.send-money-section h1,
-h4 {
+.send-money-section h1 {
   text-align: center;
 }
 .send-money-section h1 {
@@ -141,6 +162,7 @@ h4 {
 .send-money-section h4 {
   font-size: 20px;
   margin-bottom: 15px;
+  text-align: center;
 }
 .send-money-list p {
   font-size: 20px;
@@ -170,8 +192,9 @@ h4 {
 }
 
 .potlight-card img {
-  width: 60px;
+  width: 70px;
 }
+
 .potlight-card p {
   font-size: 20px;
 }
